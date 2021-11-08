@@ -11,6 +11,7 @@ public class AppTest {
     {
         App myapp= new App();
         Assert.assertEquals(0,myapp.userlogin("abc","abc123"));
+        System.out.println("testlogin");
     }
     @Test
 
@@ -18,5 +19,6 @@ public class AppTest {
     {
         App myapp= new App();
         Assert.assertEquals(1,myapp.userlogin("abc","abc@123"));
+        System.out.println("testlogin2");
     }
 }
