@@ -1,0 +1,22 @@
+import Maven_Project.src.main.java.App;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class AppTest {
+@Test
+
+    public void testlogin1()
+    {
+        App myapp= new App();
+        Assert.assertEquals(0,myapp.userlogin("abc","abc123"));
+        System.out.println("testlogin");
+    }
+    @Test
+
+    public void testlogin2()
+    {
+        App myapp= new App();
+        Assert.assertEquals(1,myapp.userlogin("abc","abc@123"));
+        System.out.println("testlogin2");
+    }
+}
