@@ -1,14 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="tests" thread-count="2">
-    <test name="test1">
-        <classes>
-            <class name="ParallelTesting.CrossBrowser"/>
-        </classes>
-    </test>
-    <test name="test2">
-        <classes>
-            <class name="ParallelTesting.ParallelTest2"/>
-        </classes>
-    </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="D:/IdeaProjects/sample/src/test/java/Daily_Tasks.SendingEmail/Simple_mail.java"><classes/></test></suite>
